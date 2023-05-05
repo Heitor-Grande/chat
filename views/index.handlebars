@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/styles/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="chatTela">
+            <h3>Conversa</h3>
+            {{#each user}}
+            <input type="text" value="{{nome}}" id="nomeUser" name="criador" hidden>
+            {{/each}}
+
+            <div class="enviado"></div>
+
+            <div class="recebido"></div>
+
+        </div>
+        <div id="mensagemInput">
+                        <input type="text" name="msg" id="msg">
+                        <button id="enviarMensagem">>>></button>
+        </div>
+    </main>
+</body>
+<script src="/views/events/index.js"></script>
+</html>

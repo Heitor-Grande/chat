@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    border: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    padding: 1%;
+}
+main h3{
+    text-align: center;
+}
+
+#chatTela{
+
+}
+
+#chatTela h4{
+    margin-left: 5%;
+}
+
+#chatTela p{
+    margin-left: 10%;
+}
+
+#mensagem{
+
+}
+
+#mensagemInput{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2.5%;
+    width: 70%;
+}
+#mensagemInput input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-width: 1px;
+    width: 40%;
+    font-size: medium;
+
+    outline: 0;
+}
+#mensagemInput button{
+    width: 20%;
+}
